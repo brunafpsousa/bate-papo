@@ -1,8 +1,8 @@
-#Título Hashzap
+#Título CHATZÃO
 #Botão de Iniciar o chat
     #Botão de Iniciar o chat
     #Popup
-        #Bem vindo ao Hashzap
+        #Bem vindo ao CHATZÃO
         #Escreva seu nome
         #Entrar no chat
 #Chat
@@ -17,7 +17,7 @@ import flet as ft
 #Passo 2
 #Tudo que estiver aqui dentro, aparecerá na tela.
 def main(pagina):
-    texto = ft.Text("Hashzap")
+    texto = ft.Text("CHATZÃO")
 
     chat = ft.Column()
 
@@ -63,7 +63,7 @@ def main(pagina):
     popup = ft.AlertDialog(
         open=False, 
         modal=True,
-        title=ft.Text("Bem vindo ao Hashzap"),
+        title=ft.Text("Bem vindo ao CHATZÃO"),
         content=nome_usuario,
         actions=[ft.ElevatedButton("Entrar", on_click=entrar_popup)]
         )
